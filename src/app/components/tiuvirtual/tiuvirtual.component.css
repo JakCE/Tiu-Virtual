@@ -31,8 +31,8 @@
     height: calc(100vh - 647px);
 }
 .foto-tiu, .foto-tiu img{
-    width: 230px;
-    height: 230px;
+    width: 240px;
+    height: 240px;
 }
 .info{
     background-color: white;
