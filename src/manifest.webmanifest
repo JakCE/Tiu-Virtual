@@ -1,7 +1,7 @@
 {
   "name": "Mi-UPC-App",
   "short_name": "Mi-UPC-App",
-  "theme_color": "#F0F1FF",
+  "theme_color": "#f0f1ff",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
