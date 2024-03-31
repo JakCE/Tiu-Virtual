@@ -21,14 +21,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 457px);
+    height: calc(100vh - 362px);
 }
 .cont-sec-data1{
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: calc(100vh - 647px);
+    height: calc(100vh - 607px);
 }
 .foto-tiu, .foto-tiu img{
     width: 240px;
