@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-tiuvirtual',
+  selector: 'app-tiu-rodrigo',
   standalone: true,
   imports: [],
-  templateUrl: './tiuvirtual.component.html',
-  styleUrl: './tiuvirtual.component.css'
+  templateUrl: './tiu-rodrigo.component.html',
+  styleUrl: './tiu-rodrigo.component.css'
 })
-export class TIUVirtualComponent implements OnInit{
+
+export class TiuRodrigoComponent implements OnInit{
   currentTime: any;
   dateInfo: any;
   nombre: string="";
@@ -25,16 +26,15 @@ export class TIUVirtualComponent implements OnInit{
     }, 1000);
     this.updateDateInfo();
   }
-
+  returnHome(){
+    this.router.navigate(['']);
+  }
   updateTime(): void {
     const now = new Date();
     const hours = this.formatTimeUnit(now.getHours());
     const minutes = this.formatTimeUnit(now.getMinutes());
     const seconds = this.formatTimeUnit(now.getSeconds());
     this.currentTime = `${hours}:${minutes}:${seconds}`;
-  }
-  returnHome(){
-    this.router.navigate(['']);
   }
 
   formatTimeUnit(unit: number): string {
