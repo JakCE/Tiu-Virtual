@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit{
       console.log("gay 1")
       return;
     }
-    if(this.loginForm.get("cod")?.value=="soy gay x2"){
+    if(this.loginForm.get("cod")?.value=="amoapiero"){
       this.router.navigate(['tiu2']);
       console.log("gay 2")
       return;
