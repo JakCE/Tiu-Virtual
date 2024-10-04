@@ -34,5 +34,10 @@ export class LoginComponent implements OnInit{
       console.log("gay 2")
       return;
     }
+    if(this.loginForm.get("cod")?.value=="soypelaoygay"){
+      this.router.navigate(['tiu3']);
+      console.log("gay 3")
+      return;
+    }
   }
 }

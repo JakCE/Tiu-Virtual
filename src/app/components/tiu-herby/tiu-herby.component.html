@@ -1,0 +1,30 @@
+<div class="w-full flex items-start justify-center flex-col">
+    <div class="w-full flex" style="background-color: #F6F8FC;">
+        <span class="icono-left text-red-600 m-5" (click)="returnHome()"><i class="fi fi-br-angle-small-left"></i></span>
+        <h1 class="tit-cred my-5">CREDENCIAL VIRTUAL</h1>
+    </div>
+    <div class="w-full flex items-center justify-center flex-col" style="background-color: #F6F8FC;">
+        <div class="cont-hora w-1/2 h-14 text-center mb-2 mt-2">
+            <h1 class="h-14">{{ currentTime }}</h1>
+        </div>
+        <div class="">{{ dateInfo.dayText }}, {{ dateInfo.dayNumeric }} {{ dateInfo.monthAbbreviation }} {{ dateInfo.year }}</div>
+    </div>
+    <div class="cont-sec-data w-full flex" id="videofondo">
+        <video autoplay muted loop>
+            <source src="../../../assets/videoNub.mp4" type="video/mp4">
+        </video>
+        <div class="" id="contenido">
+            <div class="foto-tiu mt-1 mb-32">
+                <img src="../../../assets/chamoo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 📚 Estudiante 🪪 Campus Monterrico <br> 🎓 Ingeniería industrial</p> -->
+    <div class="cont-sec-data1 w-full flex" style="background-color: #F0F1FF;">
+        <div class="info flex flex-col items-center justify-center text-center py-4">
+            <h1 class="tit-name mt-1">JOSE ROBERTH HERVACIO QUISPE</h1>
+            <p class="mb-2" style="color: #435065;"><b>U20192B785</b></p>
+            <p class="inf-data" style="color: #717B88;"><img src="../../../assets/icons/icon2.png" alt="" class="icn"> Estudiante <img src="../../../assets/icons/icon1.png" alt="" class="icn"> Campus Monterrico <br> <img src="../../../assets/icons/icon3.png" alt="" class="icn"> Ingeniería de Sistemas de Información</p>
+        </div>
+    </div>
+</div>
